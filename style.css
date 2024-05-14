@@ -1,0 +1,11 @@
+section:not(#first) {
+  display: none;
+}
+
+section:not(#first):target {
+  display: block;
+}
+
+section:not(#first):target~#first {
+  display: none;
+}
