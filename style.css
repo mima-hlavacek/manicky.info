@@ -48,6 +48,7 @@ img {
 section {
   padding: 1em;
   flex-direction: column;
+  min-height: 100%;
 }
 
 a {
@@ -59,9 +60,7 @@ td:nth-child(2) {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 1em;
+  margin-top: auto;
   align-self: end;
 }
 
