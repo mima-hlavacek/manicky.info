@@ -62,7 +62,7 @@ td:nth-child(2) {
 footer {
   margin-top: auto;
   align-self: end;
-  flex-shrink: 0;
+  text-wrap: nowrap;
 }
 
 section:not(#first) {
